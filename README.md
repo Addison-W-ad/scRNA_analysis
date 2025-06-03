@@ -1,4 +1,7 @@
 # scRNA_analysis
+### Step 1: 10X single cell cell ranger analysis
+Using the lastest cell ranger software to map the reads, choose bam file true for the downstream velocyte analysis
+
 ### Step 1 : data cleaning
 0. Ambient RNA Removal: Utilized the R package SoupX to remove ambient RNA, with the resulting counts stored in a new layer named SoupX_counts.
 1. Data Pre-processing and Concatenation: Performed initial data pre-processing and concatenated datasets using pre_processing.py.
